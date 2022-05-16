@@ -1,0 +1,30 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t=0;
+    int w=0;
+    int x=0;
+    int y=0;
+    int z=0;
+    cin>>t;
+    while(t--)
+    {
+        cin>>w>>x>>y>>z;
+        if(w+(y*z)<x)
+        {
+            cout<<"unfilled"<<endl;
+        }
+        else if(w+(y*z)==x)
+        {
+            cout<<"filled"<<endl;
+        }
+        else
+        {
+            cout<<"overflow"<<endl;
+        }
+    }
+	// your code goes here
+	return 0;
+}
