@@ -1,0 +1,15 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int N,A,B;
+    int x;
+    int t;
+    cin>>N>>A>>B;
+    x=N-A;
+    t=x-B;
+    cout<<x<<' '<<t<<endl;
+	// your code goes here
+	return 0;
+}
