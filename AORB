@@ -1,0 +1,25 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t=0;
+    cin>>t;
+    while(t--)
+    {
+        int x=0;
+        int y=0;
+        int ans1=0;
+        int ans2=0;
+        int ans=0;
+        cin>>x>>y;
+        ans1= (500-x*2)+(1000-(x+y)*4);
+        ans2= (1000-y*4)+(500-(x+y)*2);
+        ans= max(ans1,ans2);
+        cout<<ans<<endl;
+        
+        
+    }
+	// your code goes here
+	return 0;
+}
